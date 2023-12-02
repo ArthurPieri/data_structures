@@ -2,12 +2,7 @@
 #include <stdlib.h>
 #include <stdbool.h>
 #include <math.h>
-#include "stack.h"
-
-/**
- * This is a simple implementation of a stack using a linked list.
- * The stack is a data structure that works with the LIFO (Last In First Out) principle.
-**/
+#include "linked_list.h"
 
 struct linkedList {
     int value;
